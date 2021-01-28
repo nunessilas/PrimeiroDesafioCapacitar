@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <title>TopAcademia</title>
+</head>
+<body>
+
+    
+    <div id="navbar">
+        <div id="imagem">
+            <a href="#navbar"> <img src="./imagens/Logo.png" alt=""> </a>
+        </div>
+
+        <nav id="itens">
+        <a class="link" href="#navbar"> HOME        </a>
+        <a class="link" href ="#sabendo_mais"> SOBRE       </a>
+        <a class="link" href="#atividades">     ATIVIDADES  </a>
+        <a class="link" href ="#plano_externo">  PLANOS      </a>
+        <a class="link" href="#contato">        CONTATO     </a>            
+        </nav>     
+        
+    </div>
+    <div id="baner">
+        <div id="informacao-extra">
+            <p id="texto-baner">Ut porta arcu sit amet purus sodales porta. Suspendisse potenti.</p>
+            <button id="saibamais">SAIBA MAIS!</button>
+        </div>
+
+    </div>
+
+    <div id="sabendo_mais">
+        <img id="halter_laranja" src="./imagens/peso64.png">
+        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus risus, rutrum in risus sit amet, facilisis
+            ctus libero. Fusce euismod lorem sollicitudin dolor facilisis, in scelerisque massa sodales.
+            t porta arcu sit amet purus sodales porta. Suspendisse potenti. Nam at sollicitudin ipsum, sed tincidunt sem.</p>
+        
+        <button id="conhecer_planos">Conheça os planos</button>
+
+    </div>
+
+    <div id="atividades">
+        <h3>Atividades</h3>
+        
+        <div id="atividades_exemplo">
+            <div class ="atividade_singular" style="background-image: url(./imagens/gym.jpeg);" onmouseover="funcional()" onmouseout="saidafuncional()">
+                <h4 id="card_funcional">FUNCIONAL</h4>
+                <p id="funcional" >+SAIBA MAIS</p>
+            </div>
+            
+
+            <div class ="atividade_singular" style="background-image: url(./imagens/musculacao.jpeg);" onmouseover="musculacao()" onmouseout="saidamusculacao()">
+                <h4 id="card_musculacao">MUSCULAÇÃO</h4>
+                <p id="musculacao">+SAIBA MAIS</p>
+            </div>
+
+            <div class ="atividade_singular" style="background-image: url(./imagens/cross.jpeg);" onmouseover="crosstrainning()" onmouseout="saidacrosstrainning()">
+                <h4 id = "card_crosstrainning">CROSSTRAINNING</h4>
+                <p id = "crosstrainning">+SAIBA MAIS</p>
+            </div>
+
+            <div class ="atividade_singular" style="background-image: url(./imagens/pilates.jpeg);" onmouseover="pilates()" onmouseout="saidapilates()">
+                <h4 id = "card_pilates">PILATES</h4>
+                <p id = "pilates">+SAIBA MAIS</p>
+            </div>
+
+            <div class ="atividade_singular" style="background-image: url(./imagens/dance.jpeg);" onmouseover="dance()" onmouseout="saidadance()">
+                <h4 id = "card_dance">DANCE</h4>
+                <p id = "dance">+SAIBA MAIS</p>
+            </div>
+
+            <div class ="atividade_singular" style="background-image: url(./imagens/bike.jpeg);" onmouseover="bike()" onmouseout="saidabike()">
+                <h4 id = "card_bike">BIKE</h4>
+                <p id = "bike">+SAIBA MAIS</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="plano_externo">
+        <h3 id="planos_titulo">PLANOS</h3>
+        
+        <div id="planos">
+            <div class="planos_academia">
+                <h4>MENSAL</h4>
+                <img src="imagens/peso64.png">
+                <p class="explicacao_plano">Donec vitae tempus neque. Nam eu mauris non purus hendrerit efficitur. Cras vitae purus sed erat vehicula elementum vel sit amet metus. In tincidunt vitae massa eget posuere.</p>
+                
+                <button>Comprar</button>
+            </div>
+            
+            <div class="planos_academia">
+                <h4>SEMESTRAL</h4>
+                <img src="imagens/peso64.png">
+                <p class="explicacao_plano">Donec vitae tempus neque. Nam eu mauris non purus hendrerit efficitur. Cras vitae purus sed erat vehicula elementum vel sit amet metus. In tincidunt vitae massa eget posuere.</p>
+                
+                <button>Comprar</button>
+            </div>
+            
+            <div class="planos_academia">
+                <h4>ANUAL</h4>
+                <img src="imagens/peso64.png">
+                <p class="explicacao_plano">Donec vitae tempus neque. Nam eu mauris non purus hendrerit efficitur. Cras vitae purus sed erat vehicula elementum vel sit amet metus. In tincidunt vitae massa eget posuere.</p>
+                
+                <button>Comprar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contato">
+        <h3>CONTATO</h3>
+        <form id="formulario">
+            <div class = "dados">
+                <input class ="entrada"  type="text"> <br>
+                <input class ="entrada" type="text"> <br>
+                <input class ="entrada" type="text">
+            </div>
+            <input type="text">
+        </form>
+        <button>Enviar</button>
+    </div>
+
+    <footer>
+        <div id="contatos_tradicionais">
+            <img src="imagens/Logo.png">
+            <p> <img src="./imagens/pin.png"> Rua Finalmente Acabei, 777, Exausta</p>
+            <p> <img src="./imagens/email.png"> contato@.com.br</p>
+            <p> <img src="./imagens/phone-call.png"> (11) 4002-8922</p> <br>
+        </div>
+        <hr>
+        <div id="midias_sociais">
+            <p>Copyright &copy 2021 Personal Trainer</p>
+            <p> <img src="./imagens/facebook.png"> Facebook</p>
+            <p> <img src="./imagens/instagram.png"> Instagram</p>
+            <p> <img src="./imagens/twitter.png"> Twitter</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

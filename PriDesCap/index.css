@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    height: 75px;
+    padding: 0px 65px;
+    background-color: rgba(255, 72, 26, 0.176);
+    color: white;
+    z-index: 10;
+    font-size: 28px;
+    font-family: 'Open Sans Condensed', sans-serif;    
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.link{
+    padding: 0px 15px;
+
+}
+
+#baner{
+    background-image: url(./imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    margin-top: -75px;
+}
+
+#informacao-extra{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+    padding-top: 310px;
+    display: grid;
+    text-align: center;
+    font-size: 23px;
+
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #FF471A;
+    color: white;
+    border-radius: 10px;
+    border-color: #FF471A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+#saibamais{
+    margin:auto
+}
+
+button:hover{
+    background-color: #FC4619;
+    border-color: #FC4619;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.texto{
+    margin: 55px 170px;
+}
+
+#halter_laranja{
+    margin: auto;
+    height: 115px;
+    width: 100px;
+}
+#sabendo_mais{
+    display: grid;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+#conhecer_planos{
+    margin: auto ;
+}
+
+#atividades{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+#atividades > h3{
+    margin-bottom: 20px;
+    color: #FF471A;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+#atividades_exemplo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 55px;
+    justify-items: center;
+    background-color: #f3f3f3;
+    padding: 40px 0px 60px;
+}
+
+.atividade_singular{
+    border-radius: 10px;
+    width: 67%;
+    height: clamp(60px, 205px, 205px);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+
+.atividade_singular > h4{
+    color: #ff471a;
+    font-size: 37px;
+    margin-bottom: 0;
+    margin-top: 60px;
+    font-weight: 500;
+    
+}
+
+.atividade_singular > p{
+    margin-top: 0;
+    color: white;
+
+}
+
+#plano_externo{
+    margin: 190px 0 190px;
+}
+
+#planos_titulo{
+    color: #FF471A;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+#planos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+
+}
+
+.planos_academia{
+    width: 45%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #cccbcb;
+    text-align: center;
+    padding: 15px 20px 35px;
+    
+}
+
+.planos_academia:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.planos_academia > h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin: 0px 0 20px
+}
+
+.planos_academia > p{
+    text-align: justify;
+    color: #a7a0a0;
+}
+
+.planos_academia > button{
+    margin-top: 15px;
+}
+
+#contato{
+    background-image: url(./imagens/contato.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#contato > h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#formulario{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 35px;
+}
+
+.entrada{
+    margin-top: 20px;
+    height: 25px;
+    border-radius: 8px;
+    width: 65%;
+}
+
+.dados > input{
+    float: right;
+}
+
+#formulario > input{
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 65%;
+}
+
+#contato > button{
+    display: flex;
+    margin: 35px auto 20px;
+}
+
+footer{
+    background-color: #ececec;
+
+}
+footer > hr{
+    margin: 0;
+}
+
+
+#contatos_tradicionais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#midias_sociais{
+    display: flex;
+    justify-content: space-evenly;
+}
